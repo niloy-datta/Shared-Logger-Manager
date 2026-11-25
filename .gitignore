@@ -28,3 +28,8 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+### Java and local IDE metadata ###
+*.class
+.idea/
+*.iml
