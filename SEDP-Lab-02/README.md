@@ -1,4 +1,4 @@
-# Task 02 — Library Membership System
+# SEDP Lab 02 — Library Membership System
 
 [Original question](Question.md)
 

@@ -1,8 +1,7 @@
-# SEDP Lab 01 — Task 02
+# SEDP Lab 02 — Library Membership System
 
 ## Original Question
 
-### Task 1
 **Problem: Library Membership System**
 
 Build a small membership model for a library, applying encapsulation and inheritance.
