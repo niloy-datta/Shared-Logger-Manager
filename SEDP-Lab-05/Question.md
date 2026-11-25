@@ -14,6 +14,4 @@ You are given one fat interface OfficeMachine with print(), scan(), and fax(). A
 
 ## Task 3 - Fix a DIP Violation: Report Generator
 
-You are given a ReportGenerator class whose constructor directly creates 'new MySQLDatabase()' internally and calls a fetchData() method on it. Introduce a DataSource interface with a method fetchData(), have MySQLDatabase implement it, inject the DataSource into ReportGenerator's constructor instead of creating it internally, then create a second implementation MongoDatabase and prove in Main that ReportGenerator can be switched from MySQLDatabase to MongoDatabase by only changing the object passed into the constructor - ReportGenerator's own
-
-*Note: The supplied question ends mid-sentence. The solution keeps ReportGenerator unchanged when switching data sources.*
+You are given a ReportGenerator class whose constructor directly creates 'new MySQLDatabase()' internally and calls a fetchData() method on it. Introduce a DataSource interface with a method fetchData(), have MySQLDatabase implement it, inject the DataSource into ReportGenerator's constructor instead of creating it internally, then create a second implementation MongoDatabase and prove in Main that ReportGenerator can be switched from MySQLDatabase to MongoDatabase by only changing the object passed into the constructor - ReportGenerator's own source code must not change.
